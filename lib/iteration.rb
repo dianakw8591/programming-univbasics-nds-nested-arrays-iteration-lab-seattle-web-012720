@@ -42,4 +42,6 @@ def total_even_pairs(src)
   # this!
   sum = 0
   row_index = 0
+  while row_index < src.count do
+    if (src[row_index][0] % 2 == 0) &&
 end
