@@ -26,8 +26,8 @@ def find_greater_pair(src)
     if src[row_index][0] > src[row_index][1]
       greatest_number << src[row_index][0]
     else greatest_number << src[row_index][1]
-    row_index += 1
     end
+    row_index += 1
   end
   greatest_number
 end
